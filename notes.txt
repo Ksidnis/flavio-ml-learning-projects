@@ -1,0 +1,5 @@
+My notes for the competition: 
+-- 'text' column contain hasthags, which are related to 'location' or 'natural disaster' column. a good idea would be to select these hash tags and do some statistics on them.
+-- sneaky variant: maybe using external api we can predict if in given area, on given time at specified data was a natural disaster --> this is cheating but it fits competitions rules (maybe it's to complicated, but just as a fun sidenote) 
+-- maybe I should remove digits from hashtags as I don't think they contain important information. digits in hashtgas can mean that they are used for model numbering, date/time of event, it's durationor even in typos. these numbers are not descriptive enough to show that the tweet is about the disaster - the word is more important. 
+  
